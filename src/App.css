@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+  font-family: "Roboto", serif;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(./assets/elephantbg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 350px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+ 
+}
+
+.input-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 2px solid skyblue;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 2px;
+
+}
+
+.cityInput {
+  flex: 1;
+  height: 30px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+  padding: 10px;
+  background-color: transparent;
+}
+
+.search-icon {
+  padding: 10px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.search-icon img {
+  margin-top: 5px;
+
+}
+
+.image {
+  text-align: center;
+  margin-bottom: 10px;
+  height: 150px;
+}
+
+.image img {
+  width: 160px;
+  height: 160px;
+}
+
+.temp,
+.location,
+.country {
+
+  margin-top: 5px;
+  font-size: 35px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.temp {
+  font-weight: 500;
+}
+
+.location {
+  color: #ffbc00;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.country {
+  font-size: 25px;
+  color: crimson;
+  font-weight: 500;
+}
+
+.cordinate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.cordinate div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.cordinate div span {
+  font-size: 16px;
+}
+
+.cordinate div span:nth-child(2) {
+  font-size: 20px;
+  font-weight: bold;
+  color: cornflowerblue;
+  padding-top: 5px;
+}
+
+.data-container{
+display: flex;
+justify-content: space-between;
+margin-top: 20px;
+}
+
+.element{
+  text-align: center;
+}
+
+.icon{
+  height: 50px;
+  width: 50px;
+}
+
+.humidity-percent,.wind,.cordinate div span:nth-child(2){
+  font-size: 18px;
+  font-weight: bold;
+  color: #666;
+  padding-top: 5px;
+}
+
+.text{
+  font-size: 15px;
+  color: #888;
+}
+
+.element img{
+  width: 50px;
+  height: 50px;
+}
+
+.copyrights{
+  text-align: center;
+  font-size: 12px;
+  color: #888;
+}
+
+.copyrights span{
+  color: #333;
+}
+
+
+.city-not-found,.loading-message,.error-message{
+  margin-top: 10px;
+  color: #888;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+}
