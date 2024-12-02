@@ -68,3 +68,35 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# Weather App
+
+A fully responsive Weather App built with React that provides real-time weather information for any location. This application integrates with a weather API to fetch and display essential weather details in a clean, user-friendly interface.
+
+# Features
+
+# Location Search
+
+Input any city or location to fetch precise weather data instantly.
+Real-Time Weather Details
+Displays the current temperature, weather conditions, humidity, and wind speed.
+
+# Dynamic UI
+Updates the UI based on weather conditions (e.g., icons and themes).
+
+# Fully Responsive Design
+Optimized for mobile, tablet, and desktop devices.
+
+# Technologies Used
+
+React for building the UI components.
+CSS for styling and responsiveness.
+Weather API integration for live data fetching.
+
+
+#  Live Demo
+Check out the live app here:
+GitHub repository: https://github.com/Surendiran2710/Weather-App.
+Vercel link: https://weather-app-pi-hazel-82.vercel.app/.
+
